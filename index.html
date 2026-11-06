@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Repository Finder</title>
+
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h2>GitHub Repository Finder</h2>
+
+        <!-- Menú para seleccionar el lenguaje -->
+        <select id="lenguaje">
+            <option value="">Selecciona un lenguaje</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="php">PHP</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="typescript">TypeScript</option>
+            <option value="csharp">C#</option>
+        </select>
+
+        <!-- Aquí se mostrará el repositorio -->
+        <div id="resultado">
+            Selecciona un lenguaje para comenzar.
+        </div>
+
+        <!-- Botón para buscar otro repositorio -->
+        <button id="botonBuscar" style="display: none;">
+            Buscar otro repositorio
+        </button>
+
+    </div>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
